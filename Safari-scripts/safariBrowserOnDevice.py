@@ -8,20 +8,18 @@ import logging
 from time import sleep
 from pprint import pprint
 
-''' For Long Stream Handling
-logger = logging.getLogger()
-stream_handler = logging.StreamHandler(sys.stdout)
-logger.addHandler(stream_handler)
-stream_handler = logging.StreamHandler(sys.stderr)
-logger.addHandler(stream_handler)'''
-
 class safariTest(unittest.TestCase):
 
     def setUp(self):
+        '''Step1: Start Appium instance using the command from Appium Directory
+                    node /lib/server/main.js -U <Device UDID>
+            Step2: Run the ios-webkit-debug-proxy listening on port 27753
+                    ios_webkit_debug_proxy -c <Device UDID>'''
+
         with open('config.json') as config_file:
             config = json.load(config_file)
 
-        desired_caps = config['safariSimulator']
+        desired_caps = config['safariIphone']
         '''pprint(desired_caps) For checking Desired capability'''
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(2)

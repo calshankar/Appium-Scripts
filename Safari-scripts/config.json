@@ -59,7 +59,7 @@
     "appiumVersion": "1.3.4"
   },
 
-  "safariPhone":
+  "safariIphone":
   {
     "platformName": "iOS",
   	"browserName":"Safari",
