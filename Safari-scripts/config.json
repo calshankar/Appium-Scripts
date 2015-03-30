@@ -1,0 +1,109 @@
+{
+ "DEVICE_NAME":"Nexus5",
+ "MOBILE_PLATFORM": "Android",
+ "DEVICE_TYPE":"Device",
+ "APPLICAITON_PATH":"C:\\Users\\Renuka\\Downloads\\",
+ "APPLICATION_NAME":"Swyx.apk",
+ "ENV":"OTT",
+
+ "RESULTS_ZIPFILE_PATH":"C:\\Users\\Renuka\\git\\SwyxOTTAutomation\\Swyx_Automation\\",
+ "FROM_MAIL_ID":"automation@aahlaad.com",
+ "FROM_MAIL_USERNAME":"automation@aahlaad.com",
+ "FROM_MAIL_PASSWORD":"appium@123",
+
+ "TO_MAIL_IDS":["renuka.tambe@aahlaad.com"],
+ "APPIUM_VERSION":"1.0",
+ "APPIUM_LAUNCH_TIMEOUT":"360000",
+ "APPIUM_NEW_COMMAND_TIMEOUT":"600",
+ "SCREENSHOT":"ALWAYS",
+
+ "iphone5S":
+  {
+  	"PLATFORM_NAME": "iOS",
+    "BUNDLE_ID":"com.gorillalogic.DemoTest",
+  	"APP":"/Users/aahlaadlabmac/Desktop/DemoMonkey.app",
+  	"MACHINE":"localhost",
+ 	"PORT":"4723",
+    "Device":"iPhone5S",
+    "MOBILE_PLATFORM_VERSION": "8.1",
+    "launchTimeout": "360000",
+    "newCommandTimeout": "600",
+    "UDID": "iphone5S gold",
+    "UDID": "389cd9b75766013cff4041e6537a84f197989be7"
+
+  },
+
+ "iOSSimulator":
+  {
+    "platformName": "iOS",
+  	"bundleId":"com.gorillalogic.DemoTest",
+  	"app":"/Users/aahlaadlabmac/Desktop/DemoMonkey.app",
+    "platformVersion": "8.1",
+    "deviceName":"iPhone Simulator",
+    "launchTimeout": "360000",
+    "newCommandTimeout": "600",
+    "url":"http://localhost:4723/wd/hub",
+    "appiumVersion": "1.3.4"
+  },
+
+  "safariSimulator":
+  {
+    "platformName": "iOS",
+  	"browserName":"Safari",
+  	"port":"4723",
+    "platformVersion": "7.1",
+    "deviceName":"iPhone Simulator",
+    "launchTimeout": "360000",
+    "nativeWebTap": "True",
+    "safariIgnoreFraudWarning": "True",
+    "appiumVersion": "1.3.4"
+  },
+
+  "safariPhone":
+  {
+    "platformName": "iOS",
+  	"browserName":"Safari",
+  	"port":"4723",
+    "platformVersion": "8.1",
+    "launchTimeout": "360000",
+    "nativeWebTap": "True",
+    "deviceName":"milind gandhi’s iPhone",
+    "safariIgnoreFraudWarning": "True",
+    "UDID": "6a50ad2257a391e4bf6bf66f3665a83f8ee503a3",
+    "appiumVersion": "1.3.4"
+  },
+
+ "AndroidDevice":
+  {
+    "PLATFORM_NAME": "Android",
+  	"APP":"Swyx.apk",
+  	"PACKAGE":"com.gorillalogic.monkeytalk.demo1",
+  	"LAUNCH_ACTIVITY":".RootActivity",
+  	"MACHINE":"localhost",
+ 	"PORT":"4723",
+
+    "Nexus5":
+      {"MOBILE_PLATFORM_VERSION": "4.4", "AUTOMATION_NAME":"Appium","DEVICE_NAME":"0648058600638b56"},
+
+     "LgG3":
+      {"MOBILE_PLATFORM_VERSION": "4.4", "AUTOMATION_NAME":"Appium","DEVICE_NAME":"LGD855ae13e0be"},
+
+      "HtcOneM8":
+      {"MOBILE_PLATFORM_VERSION": "4.4","AUTOMATION_NAME":"Appium","DEVICE_NAME":"HT452WM05345"},
+
+     "GalaxyS5":
+      {"MOBILE_PLATFORM_VERSION": "4.4", "AUTOMATION_NAME":"Appium","DEVICE_NAME":"4d0082d24e1e411b"}
+  },
+
+ "AndroidSimulator":
+  {
+    "APP":"Swyx.apk",
+  	"PACKAGE":"com.gorillalogic.monkeytalk.demo1",
+  	"LAUNCH_ACTIVITY":".RootActivity",
+  	"MACHINE":"localhost",
+    "PORT":"4723",
+
+    "API_19_320_480":
+      {"MOBILE_PLATFORM_VERSION": "7.1","BUNDLE_ID":"com.gorillalogic.DemoTest", "APP":"SwyxOTTV1.2.1.2.ipa"}
+  }
+}
