@@ -11,10 +11,11 @@ from pprint import pprint
 class safariTest(unittest.TestCase):
 
     def setUp(self):
-        '''Step1: Start Appium instance using the command from Appium Directory
+        """Step1: Start Appium instance using the command from Appium Directory
                     node /lib/server/main.js -U <Device UDID>
             Step2: Run the ios-webkit-debug-proxy listening on port 27753
-                    ios_webkit_debug_proxy -c <Device UDID>'''
+                    ios_webkit_debug_proxy -c <Device UDID>
+                    Make sure you followed the setup configuration from Readme"""
 
         with open('config.json') as config_file:
             config = json.load(config_file)
