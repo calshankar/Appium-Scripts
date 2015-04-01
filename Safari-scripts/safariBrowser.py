@@ -50,7 +50,7 @@ class safariTest(unittest.TestCase):
             button.click()
             sleep (8)
             self.driver.back()
-        except stream_handler:
+        except:
             print("failed to Execute the Command")
 
 if __name__ == '__main__':

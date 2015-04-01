@@ -8,14 +8,16 @@ import logging
 from time import sleep
 from pprint import pprint
 
-class safariTest(unittest.TestCase):
-
-    def setUp(self):
-        """Step1: Start Appium instance using the command from Appium Directory
+"""Step1: Start Appium instance using the command from Appium Directory
                     node /lib/server/main.js -U <Device UDID>
             Step2: Run the ios-webkit-debug-proxy listening on port 27753
                     ios_webkit_debug_proxy -c <Device UDID>
-                    Make sure you followed the setup configuration from Readme"""
+
+   Make sure you followed the setup configuration from Readme Link"""
+
+class safariTest(unittest.TestCase):
+
+    def setUp(self):
 
         with open('config.json') as config_file:
             config = json.load(config_file)
@@ -49,7 +51,7 @@ class safariTest(unittest.TestCase):
             button.click()
             sleep (8)
             self.driver.back()
-        except stream_handler:
+        except:
             print("failed to Execute the Command")
 
 if __name__ == '__main__':
