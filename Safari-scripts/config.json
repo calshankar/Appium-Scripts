@@ -3,15 +3,13 @@
  "MOBILE_PLATFORM": "Android",
  "DEVICE_TYPE":"Device",
  "APPLICAITON_PATH":"C:\\Users\\Renuka\\Downloads\\",
- "APPLICATION_NAME":"Swyx.apk",
+ "APPLICATION_NAME":"",
  "ENV":"OTT",
 
- "RESULTS_ZIPFILE_PATH":"C:\\Users\\Renuka\\git\\SwyxOTTAutomation\\Swyx_Automation\\",
+ 
  "FROM_MAIL_ID":"automation@aahlaad.com",
  "FROM_MAIL_USERNAME":"automation@aahlaad.com",
  "FROM_MAIL_PASSWORD":"appium@123",
-
- "TO_MAIL_IDS":["renuka.tambe@aahlaad.com"],
  "APPIUM_VERSION":"1.0",
  "APPIUM_LAUNCH_TIMEOUT":"360000",
  "APPIUM_NEW_COMMAND_TIMEOUT":"600",
