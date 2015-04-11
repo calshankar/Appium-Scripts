@@ -2,14 +2,14 @@
  "DEVICE_NAME":"Nexus5",
  "MOBILE_PLATFORM": "Android",
  "DEVICE_TYPE":"Device",
- "APPLICAITON_PATH":"C:\\Users\\Renuka\\Downloads\\",
+ "APPLICAITON_PATH":"",
  "APPLICATION_NAME":"",
  "ENV":"OTT",
 
  
  "FROM_MAIL_ID":"automation@aahlaad.com",
  "FROM_MAIL_USERNAME":"automation@aahlaad.com",
- "FROM_MAIL_PASSWORD":"appium@123",
+ "FROM_MAIL_PASSWORD":"",
  "APPIUM_VERSION":"1.0",
  "APPIUM_LAUNCH_TIMEOUT":"360000",
  "APPIUM_NEW_COMMAND_TIMEOUT":"600",
